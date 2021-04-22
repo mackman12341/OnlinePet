@@ -1,0 +1,477 @@
+/*/universal------------------------*/
+body {background-color: #5F9EA0;}
+
+/*/---------------------------------
+//Pet Classes -----------------*/
+.petImg {
+  position:absolute;
+  width: calc(12vw + 10px);
+  z-index: 5;
+  top: 35%;
+  left: 45%;
+}
+.petSadImg {
+  position:absolute;
+  width: calc(12vw + 10px);
+  z-index: 5;
+  top: 35%;
+  left: 45%; 
+}
+
+/*/---------------------------------
+//icons + buttons -----------------*/
+div.home img {
+  width: calc(6vw + 10px);
+  margin: 10px;
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  right: 70%;
+}
+
+div.health img {
+  width: calc(6vw + 10px);
+  margin: 10px;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  right: 60%;
+}
+
+div.food img {
+  width: calc(6vw + 10px);
+  margin: 10px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  right: 50%;
+}
+
+div.shop img {
+  width: calc(6vw + 10px);
+  margin: 10px;
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  right: 40%;
+}
+
+div.wc img {
+  width:calc(6vw + 10px);
+  margin: 10px;
+  position: absolute;
+  top: 5%;
+  left: 70%;
+  right: 30%;
+}
+/*/-------------------------------
+//action items-------------------*/
+div.pointer img {
+  width: calc(3vw + 10px);
+  margin: 5px;
+  position: absolute;
+  top: calc(10% + 8vw);
+  left: calc(50% + 2vw);
+  right:70%;
+}
+
+
+
+/*/-------------------------------
+//menus--------------------------*/
+.home_menu {
+  width: 55vw;
+  height: 75vh;
+  margin:5px;
+  position: absolute;
+  top: 4.5%;
+  left: 25vw;
+  z-index: 10;
+  background-color: #87CEFA;
+  border-radius: 30px;
+  visibility: hidden;
+}
+.health_menu {
+  width: 55vw;
+  height: 75vh;
+  margin:5px;
+  position: absolute;
+  top: 4.5%;
+  left: 25vw;
+  z-index: 10;
+  background-color: #00ff99;
+  border-radius: 30px;
+  visibility: hidden;
+}
+.food_menu {
+  width: 55vw;
+  height: 75vh;
+  margin:5px;
+  position: absolute;
+  top: 4.5%;
+  left: 25vw;
+  z-index: 10;
+  background-color: #ffcccc;
+  border-radius: 30px;
+  visibility: hidden;
+}
+.shop_menu {
+  width: 55vw;
+  height: 75vh;
+  margin:5px;
+  position: absolute;
+  top: 4.5%;
+  left: 25vw;
+  z-index: 10;
+  background-color: #9999ff;
+  border-radius: 30px;
+  visibility: hidden;
+}
+.wc_menu {
+  width: 55vw;
+  height: 75vh;
+  margin:5px;
+  position: absolute;
+  top: 4.5%;
+  left: 25vw;
+  z-index: 10;
+  background-color: #00cc66;
+  border-radius: 30px;
+  visibility: hidden;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Courier New';
+  font-weight: bold;
+  margin: 5px calc(22vw);
+  //position: center;
+  //top:10%;
+  //left: 50%;
+
+
+}
+/*/-------------------------------
+//visual-------------------------*/
+.healthBar{
+  width: calc(30vw - 6px);
+  height: 20px;
+  margin:5px;
+  padding: 3;
+  position: absolute;
+  top: calc(25% + 4px);
+  left: calc(15% + 3px);
+  z-index: 12;
+  background-color: #cc3300;
+  border-radius: 5px;
+}
+
+.happinessBar{
+  //width: calc(30vw - 6px);
+  height: 20px;
+  margin: 5px;
+  padding: 3;
+  position: absolute;
+  top: calc(50% + 4px);
+  left: calc(15% + 3px);
+  z-index: 12;
+  background-color: #cc3300;
+  border-radius: 5px;
+}
+
+.hungerBar{
+  width: calc(30vw - 6px);
+  height: 20px;
+  margin: 5px;
+  padding: 3;
+  position: absolute;
+  top: calc(25% + 4px);
+  left: calc(15% + 3px);
+  z-index: 12;
+  background-color: #cc3300;
+  border-radius: 5px;
+}
+
+.healthbarBackground.barOne {
+  width: 30vw;
+  height: 28px;
+  margin: 5px;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  z-index: 11;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.healthbarBackground.barTwo {
+  width: 30vw;
+  height: 28px;
+  margin: 5px;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  z-index: 11;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Courier New';
+  font-weight: bold;
+  margin: 5px;
+}
+section {
+  position: absolute;
+}
+
+.banner {
+  margin-left: 15%;
+}
+
+.banner.bannerA {
+  margin: 30px 15%;
+}
+.banner.bannerB {
+  margin: 47px 15%;
+}
+.banner.bannerC {
+  margin: 65px 15%;
+}
+.banner.bannerD {
+  margin: 82px 15%;
+}
+.banner.bannerE {
+  margin: 100px 15%;
+}
+/*/--------------------------
+//buttons-------------------*/
+.foodButton {
+  width: 6.66vw;
+}
+
+.button.mealButton {
+  position: absolute;
+  margin: 200px 20%;
+  border-radius: 10px;
+}
+
+.button.snackButton {
+  position: absolute;
+  margin: 200px 55%;
+  border-radius: 10px;
+}
+
+.burgerLabel {
+  position: absolute;
+  margin: 160px 20%;
+  font-size: calc(2vw + 5px);
+}
+
+.sushiLabel {
+  position: absolute;
+  margin: 160px 55%;
+  font-size: calc(2vw + 5px);
+}
+
+.button.excerciseButton {
+  position: absolute;
+  margin: 40px 20%;
+  border-radius: 10px;
+}
+
+.button.fitnessButton {
+  position: absolute;
+  margin: 40px 55%;
+  border-radius: 10px;
+}
+
+.excerciseLabel {
+  position: absolute;
+  margin: 0px 20%;
+  font-size: calc(2vw + 5px);
+}
+
+.fitnessLabel {
+  position: absolute;
+  margin: 0px 55%;
+  font-size: calc(2vw + 5px);
+}
+
+.buyButton {
+  position: absolute;
+  width: 40px;
+  background-color: #248f24; 
+  border-radius: 8px;
+  font-size: calc(.5vw + 5px);
+}
+
+
+#buyOne {
+  margin: calc(5% + 8.66vw + 15px) calc(20% + 0.5vw);
+}
+
+#buyTwo {
+  margin: calc(5% + 8.66vw + 15px) calc(60% + 0.5vw);
+}
+
+#buyThree {
+  margin: calc(35% + 8.66vw + 15px) calc(20% + 0.5vw);
+}
+
+#buyFour {
+  margin: calc(35% + 8.66vw + 15px) calc(60% + 0.5vw);
+}
+
+
+.soldSign img {
+  width: 6.66vw;
+  position: absolute;
+  visibility: 'hidden';
+}
+
+#soldOne {
+    margin: 5% 20%;
+    visibility: 'hidden';
+}
+
+#soldTwo {
+    margin: 5% 60%;
+}
+
+#soldThree{ 
+    margin: 35% 20%;
+}
+
+#soldFour {
+    margin: 35% 60%;
+}
+/*/--------------------------
+//Shop Items----------------*/
+#shmoney {
+  position: absolute;
+  margin-left: 20px;
+  font-size: calc(2vw + 5px);
+}
+
+.shopItem img {
+  width: 6.66vw;
+  position: absolute;
+}
+
+.itemOne img {
+  margin: 5% 20%;
+}
+
+.itemTwo img {
+  margin: 5% 60%;
+}
+
+.itemThree img {
+  margin: 35% 20%;
+}
+
+.itemFour img {
+  margin: 35% 60%;
+}
+
+.shopItemTitleOne {
+  position: absolute;
+  margin: calc(5% + 6.66vw + 10px) calc(20% + 0.5vw);
+  font-size: calc(2vw + 5px);
+}
+.shopItemTitleTwo {
+  position: absolute;
+  margin: calc(5% + 6.66vw + 10px) calc(60% + 0.5vw);
+  font-size: calc(2vw + 5px);
+}
+.shopItemTitleThree {
+  position: absolute;
+  margin: calc(35% + 6.66vw + 10px) calc(20% + 0.5vw);
+  font-size: calc(2vw + 5px);
+}
+.shopItemTitleFour {
+  position: absolute;
+  margin: calc(35% + 6.66vw + 10px) calc(60% + 0.5vw);
+  font-size: calc(2vw + 5px);
+}
+
+.shopItemTitle {
+  width: 20vw;
+  font-size: calc(2vw + 5px);
+}
+
+
+/*/--------------------------
+//Bought Items--------------*/
+.boughtItems {
+  position: absolute;
+}
+.bought img{
+  width: 6.66vw;
+}
+
+.cakeItem img{
+  position: absolute;
+  margin-left: 30vw;
+  margin-top: 60vh;
+}
+.bagelItem img{
+  position: absolute;
+  margin-left: 44vw;
+  margin-top: 60vh;
+}
+.birbItem img{
+  position: absolute;
+  left: 58vw;
+  top: 60vh;
+}
+.ukuItem img{
+  position: absolute;
+  margin-left: 72vw;
+  margin-top: 60vh;
+}
+
+/*/--------------------------
+//poop----------------------*/
+.poopImg {
+  position: absolute;
+  width: 3.33vw;
+}
+
+.poo.poopDivA img{
+  margin-top: 30vh;
+  margin-left: 15vw;
+  
+}
+
+.poo.poopDivB img{
+  margin-top: 45vh;
+  margin-left: 50vw;
+
+}
+
+.poo.poopDivC img{
+  margin-top: 37vh;
+  margin-left: 85vw;
+
+}
+
+.poo.poopDivD img{
+  margin-top: 25vh;
+  margin-left: 30vw;
+
+}
+
+.poo.poopDivE img{
+  margin-top: 42vh;
+  margin-left: 69vw;
+
+}
+
+.poo.poopDivF img{
+  margin-top: 39vh;
+  margin-left: 30vw;
+
+}
